@@ -8,7 +8,7 @@
     top: 0;
 }
 
-.parent {
+.block {
     width: 100%;
     height: 10%;
     position: fixed;
@@ -24,8 +24,21 @@
 a {
     color:#87b85a ;
     font-size: 18px;
-    margin: 10px;
-
-    
+    margin: 10px;  
 }
 
+a:hover {
+    color: #848284; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+
+a:visited {
+    color:#87b85a; /* Цвет посещённой ссылки */
+} 
+
+/* Карусель картинок */
+
+.carousel {
+    width: 50%;
+    height: 20%;
+}
