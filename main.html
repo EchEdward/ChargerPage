@@ -22,12 +22,14 @@
 
 <body>
     <div class="parent">
-        <div class="block">
-            <img id="logo" src="Logo.png" height="90" alt="Аудент">
-            <a href="">О нас</a>
-            <a href="">Контакты</a>
-            <a href="">Продукты</a>
-            <a href="">Сервис</a>
+        <div class="header">
+            <a href="">
+                <img id="logo" src="Logo.png" height="90" alt="Аудент">
+            </a>
+            <a class="header-links" href="">О нас</a>
+            <a class="header-links" href="">Контакты</a>
+            <a class="header-links" href="">Продукты</a>
+            <a class="header-links" href="">Сервис</a>
         </div>
 
 
@@ -45,7 +47,7 @@
                         src="info/trird_new.png"
                         data-holder-rendered="true">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 id=left-title>DLM 2.0</h5>
+                        <h4 id=left-title>DLM 2.0</h4>
                         <p id=left-content>Система перераспределения выделенной мощности как в пределах одной зарядной станции,
                             так и группы из нескольких зарядных станций
                         </p>
@@ -59,7 +61,7 @@
                         src="info/fisrt.jpg"
                         data-holder-rendered="true">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 id=center-title>ОФИЦИАЛЬНЫЙ ДИЛЛЕР INGETEAM</h5>
+                        <h4 id=center-title>ОФИЦИАЛЬНЫЙ ДИЛЛЕР <a style="color:white" href="https://www.ingeteam.com/">INGETEAM</a></h4>
                         <p id=center-content>ООО «АУДЕНТ» официальный представитель INGETEAM на территории Республики Беларусь и Российской Федерации.</p>
                     </div>
                 </div>
@@ -70,7 +72,7 @@
                         src="info/fifth.jpg"
                         data-holder-rendered="true">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 id=right-title>СЕРВИС</h5>
+                        <h4 id=right-title>СЕРВИС</h4>
                         <p id=right-content>Наши специалисты обеспечивают полный спектр услуг по 
                             обслуживанию и вводу в коммерческое использование
                             зарядных станций
@@ -86,6 +88,67 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
+
+        <div class="tiles">
+            <div id="time-tile">
+                <img class="tile-img" src="info/time2_tile.png" width="100%" alt="about right spend time">
+                <div class="tile-content">
+                    <h4 id="time-tile-content-h" style="font-weight: 600">МЫ ЗНАЕМ ЦЕНУ ВРЕМЕНИ</h4>
+                    <p id="time-tile-content-p">
+                        Надежность, практичность и функциональность инфраструктуры для
+                        электрического транспорта - отличительные черты нашего продукта.
+                        Сервис от и для электроавтомобилистов.
+                    </p>
+                </div>  
+            </div>
+            <div id="three-blocks">
+                
+                <div id="charger-tile">
+                    <img class="tile-img" src="info/charger_tile.png" width="100%" alt="about chargers">
+                    <div class="tile-content">
+                        <h4 class="block-tile-content-h" style="font-weight: 600">ЗАРЯДКИ</h4>
+                        <p class="block-tile-content-p">
+                            Мы используем зарядные станции от мирового лидера
+                            в области электрооборудования Ingeteam.
+                        </p>
+                    </div>  
+                </div>
+                <div id="software-tile">
+                    <img class="tile-img" src="info/software_tile.png" width="100%" alt="about software">
+                    <div class="tile-content">
+                        <h4 class="block-tile-content-h" style="font-weight: 600">ПРОГРАМНОЕ ОБЕСПЕЧЕНИЕ</h4>
+                        <p class="block-tile-content-p">
+                            В качестве дополнительного сервиса мы предлагаем
+                            мобильное приложение, предоставляющее яркий опыт
+                            при использовании сети зарядных станций АУДЕНТ.
+                        </p>
+                    </div>  
+                </div>
+                <div id="servise-tile">
+                    <img class="tile-img" src="info/servise_tile.png" width="100%" alt="about servise">
+                    <div class="tile-content">
+                        <h4 class="block-tile-content-h" style="font-weight: 600">СЕРВИС</h4>
+                        <p class="block-tile-content-p">
+                            Наши специалисты обеспечивают полный спектр услуг
+                            по обслуживанию и вводу в комерческое использование
+                            зарядных станций.
+                        </p>
+                    </div>  
+                </div>
+                    
+            </div>
+
+        </div>
+
+        <div class="contacs-botton">
+            <img id="logo" src="Logo.png" height="60" alt="Аудент">
+            <img class="envelope-closed" src="info/envelope-closed.svg" alt="mail-for-communication">
+            <a id="mail-link" href="mailto:info@ingeteam.com">info@ingeteam.com</a>
+            <a id="ingeteam-logo-link" href="https://www.ingeteam.com/">
+                <img  src="info/logo_footer.png" alt="ingeteam-link">
+            </a>
+
         </div>
 
 

@@ -1,4 +1,4 @@
-#header {
+#headerrr {
     position: fixed;
     box-shadow: 0 0 3px #343434;
     background: rgba(255,255,255,.9);
@@ -8,7 +8,7 @@
     top: 0;
 }
 
-.block {
+.header {
     width: 100%;
     height: 100px;
     padding-left: 25%;
@@ -20,24 +20,24 @@
     align-items: center;
     /* align-content: center; 
     justify-content: center;  */
-    overflow: auto; 
+    /* overflow: auto;  */
     z-index: 4;  
-    background-color: rgba(255, 255, 255, 0.699);
+    background-color: rgba(255, 255, 255, 0.856);
     justify-content: space-between
 }
 
-a {
+.header-links {
     color:#87b85a ;
     font-size: 18px;
     margin: 10px;  
 }
 
-a:hover {
+.header-links:hover {
     color: #848284; /* Цвет ссылки при наведении на нее курсора мыши */  
     text-decoration: underline; /* Добавляем подчеркивание */
 }
 
-a:visited {
+.header-links:visited {
     color:#87b85a; /* Цвет посещённой ссылки */
 } 
 
@@ -88,3 +88,104 @@ a:visited {
     font-size: 19px;
     
 }
+
+.contacs-botton {
+    background-color: #343434;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.envelope-closed {
+    width: 14px;
+    height: 14px;
+    filter: invert(100%) ;
+}
+
+#mail-link {
+    color: white;
+    font-size:14px; 
+}
+
+#ingeteam-logo-link {
+    position: absolute;
+    right:  25%;
+    margin-top: 15px;
+}
+
+.tiles {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#time-tile {  
+    /* position: fixed; */
+    position:relative;
+    margin-bottom: 15px;
+}
+#charger-tile {  
+    /* position: fixed; */
+    position:relative;
+    margin-right: 15px;
+}
+#software-tile {  
+    /* position: fixed; */
+    position:relative;
+}
+#servise-tile {  
+    /* position: fixed; */
+    position:relative;
+    margin-left: 15px;
+}
+
+
+.tile-img {  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#three-blocks {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+
+.tile-content {
+    /* top: 0%; */
+    position: absolute;
+    background: #0000007a;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    color: white;    
+}
+
+#time-tile-content-h {
+    margin-top: 2%;
+    margin-left: 5%;
+    /* width: 55%; */
+}
+
+#time-tile-content-p {
+    margin-left: 5%;
+    width: 55%;
+}
+
+.block-tile-content-h {
+    margin-top: 2%;
+    margin-left: 5%;
+    /* width: 55%; */
+}
+
+.block-tile-content-p {
+    margin-left: 5%;
+    width: 80%;
+}
+
