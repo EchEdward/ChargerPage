@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="garage-basic.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <title>garage-basic</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="header">
+            <a href="">
+                <img id="logo" src="Logo.png" height="90" alt="Аудент">
+            </a>
+            <a class="header-links" href="">О нас</a>
+            <a class="header-links" href="">Контакты</a>
+            <a class="header-links" href="">Продукты</a>
+            <a class="header-links" href="">Сервис</a>
+        </div>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class=""></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        data-src="holder.js/800x400?auto=yes&amp;bg=555&amp;fg=333&amp;text=Third slide"
+                        alt="Third slide [800x400]" src="info/trird_new.png" data-holder-rendered="true">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 id=left-title>DLM 2.0</h4>
+                        <p id=left-content>Система перераспределения выделенной мощности как в пределах одной зарядной
+                            станции,
+                            так и группы из нескольких зарядных станций
+                        </p>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        data-src="holder.js/800x400?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide"
+                        alt="Second slide [800x400]" src="info/fisrt.jpg" data-holder-rendered="true">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 id=center-title>ОФИЦИАЛЬНЫЙ ДИЛЛЕР <a style="color:white"
+                                href="https://www.ingeteam.com/en-us/home.aspx">INGETEAM</a></h4>
+                        <p id=center-content>ООО «АУДЕНТ» официальный представитель INGETEAM на территории Республики
+                            Беларусь и Российской Федерации.</p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img class="d-block w-100"
+                        data-src="holder.js/800x400?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide"
+                        alt="First slide [800x400]" src="info/fifth.jpg" data-holder-rendered="true">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 id=right-title>СЕРВИС</h4>
+                        <p id=right-content>Наши специалисты обеспечивают полный спектр услуг по
+                            обслуживанию и вводу в коммерческое использование
+                            зарядных станций
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="product-discription">
+            <div class="tab-container">
+                <h2>INGEREV GARAGE Basic </h2>
+                <br>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#home">Описание</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#menu1">Параметры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#menu2">Модификации</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#menu3">Поддержка</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <!-- <h3>HOME</h3> -->
+                        <p>
+                            INGEREV GARAGE Basic - это практичный, простой и функциональный способ зарядки вашего
+                            электромобиля.
+                            Он специально разработан для установки в частной собственности, такой как частные,
+                            общественные или корпоративные гаражи.
+                        </p>
+                        <p>
+                            Прочная и устойчивая конструкция со стальным корпусом и алюминиевой передней частью
+                            позволяет
+                            устанавливать зарядную станция также и ​​на открытом воздухе.
+                            Эти точки зарядки были разработаны в соответствии с международным стандартом МЭК 61851,
+                            предлагая возможность зарядки транспортных средств в режиме 3 этого стандарта.
+                        </p>
+                        <p>
+                            Зарядная станция оснащена соединительным кабелем для транспортного средства, что делает
+                            ежедневную зарядку
+                            более чистой и удобной, поскольку пользователям не нужно беспокоиться о последующем
+                            извлечении и хранении кабеля после использования.
+                        </p>
+                        <p>
+                            INGEREV GARAGE Basic доступен в одно- или трехфазной версии с мощностью зарядки до 7,4 или
+                            22 кВт.
+                        </p>
+                        <p>
+                            Доступны две модели, с различным типом розетки, необходимой для зарядки автомобиля.
+                            Один из них оснащен разъемом типа 1, а другой - разъемом типа 2 в соответствии со стандартом
+                            IEC 62196-2.
+                        </p>
+                        <p>
+                            Пользователям предлагается возможность зарядки в режиме номинальной мощности,
+                            либо ограниченной мощности, для управления распеределением мощности энергопотреблением.
+                            Параметры номинальной и ограниченной мощности настраиваются пользователем в допустимых
+                            технических пределах.
+                        </p>
+                        <p>
+                            С помощью USB-соединения можно измененять настройки параметров станции, иметь доступ к
+                            журналам зарядки, а так же
+                            устанавливать обновления в течение всего срока службы зарядной станции.
+                        </p>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade"><br>
+                        <!-- <h3>Menu 1</h3> -->
+                        <ul>
+                            <li>Настенный, в помещении или на улице;</li>
+                            <li>Режим зарядки 3 (МЭК 61851);</li>
+                            <li>Максимальная зарядная мощность 7,4 или 22 кВт;</li>
+                            <li>Встроенный 5-метровый соединительный кабель, тип 1 или тип 2;</li>
+                            <li>Кабельная вешалка в комплекте;</li>
+                            <li>Ключ работает;</li>
+                            <li>Выбор номинальной мощности или ограниченной мощности;</li>
+                            <li>Учет мощности и энергии (MID);</li>
+                            <li>Светодиодные индикаторы состояния RGB;</li>
+                            <li>Обновления, настройка и загрузка отчетов через USB;</li>
+                            <li>Настраиваемый отложенный заряд через USB;</li>
+                            <li>Опциональный считыватель RFID;</li>
+                            <li>Доступ к (опционально) средствам защиты через нижнюю крышку;</li>
+                            <li>DLM - Динамическое управление нагрузкой (доступно опционально).</li>
+                        </ul>
+                    </div>
+                    <div id="menu2" class="container tab-pane fade"><br>
+                        <!-- <h3>Menu 2</h3> -->
+                        <p>
+                            ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ И СВЯЗЬ
+                        </p>
+                        <p>
+                            Базовые зарядные станции INGEREV GARAGE обеспечивают доступ к своим внутренним данным и их настройку через порт USB.
+                        </p>
+                        <p>
+                            Добавив оборудование RS-485, можно использовать протокол связи для соединения зарядной станции с другими зарядными станциями 
+                            в диапазоне INGEREV, в группах до 10 взаимосвязанных зарядных станций.
+                        </p>
+                        <p>
+                            Добавляя коммуникационное оборудование (модем) для каждой группы станций, они могут быть подключены через сети Ethernet 
+                            или GPRS / 3G и интегрированы в центр удаленного управления, который использует открытый протокол OCPP.
+                        </p>
+                        <p>
+                            Аппаратура связи также включает в себя встроенное управляющее программное обеспечение, доступное через браузер INGEREV 
+                            WEB MANAGER, позволяющее осуществлять доступ, настройку и управление оборудованием без необходимости в дополнительном программном обеспечении.
+                        </p>
+                        <p>
+                            Более подробная информация в разделе Скачать.
+                        </p>
+                    </div>
+                    <div id="menu3" class="container tab-pane fade"><br>
+                        <!-- <h3>Menu 2</h3> -->
+                        <p>
+                            СЛУЖБА ТЕХНИЧЕСКОЙ ПОДДЕРЖКИ
+                        </p>
+                        <p>
+                            По любому инциденту, связанному с зарядной станцией INGEREV, вы можете обратиться по нашим контактам.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="product-img">
+                <img  src="product/product_main.jpg"  width="100%" alt="Charge stantion">
+            </div>
+        </div>
+
+        <div class="download-links">
+            <div class="download-links-item">
+                <table>
+                    <tr>
+                        <td>
+                            <img class="link-img" src="product/eye.svg" alt="view">
+                            <a target="_blank" href="https://www.ingeteam.com/Portals/0/Catalogo/Producto/Documento/PRD_3393_Archivo_communications-ingerev-ev-charging-points-english.pdf">
+                                Посмотреть
+                            </a>
+                        </td>
+                        <td rowspan="2">
+                            <h5>Связь INGEREV EV для зарядных станций</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="link-img" src="product/data-transfer-download.svg" alt="download">
+                            <a href="https://www.ingeteam.com/Download/3393/attachment/communications-ingerev-ev-charging-points-english.pdf.aspx">
+                                Скачать
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+
+        <div class="contacs-botton">
+            <img id="logo" src="Logo.png" height="60" alt="Аудент">
+            <img class="envelope-closed" src="info/envelope-closed.svg" alt="mail-for-communication">
+            <a id="mail-link" href="mailto:info@ingeteam.com">info@ingeteam.com</a>
+            <a id="ingeteam-logo-link" href="https://www.ingeteam.com/en-us/home.aspx">
+                <img src="info/logo_footer.png" alt="ingeteam-link">
+            </a>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

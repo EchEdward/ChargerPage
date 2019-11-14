@@ -22,14 +22,16 @@
     justify-content: center;  */
     /* overflow: auto;  */
     z-index: 4;  
-    background-color: rgba(255, 255, 255, 0.856);
-    justify-content: space-between
+    background-color: rgba(255, 255, 255, 0.95);
+    /* justify-content: space-between; */
 }
 
 .header-links {
     color:#87b85a ;
     font-size: 18px;
     margin: 10px;  
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .header-links:hover {
@@ -101,6 +103,7 @@
     width: 14px;
     height: 14px;
     filter: invert(100%) ;
+    margin-left: 2%;
 }
 
 #mail-link {
