@@ -9,26 +9,12 @@
 }
 
 #description-img {
-    
-    position: relative;
-    width: 35%; 
+    width: 25%;
+    vertical-align: top;
 }
 
 #description-img img {
-    position: absolute;
-    left: 0;
-    top: 0px;
-    bottom: 35px;
-    right: 0;
-    margin: auto;
-  }
-
-#description-paragraphs .description-text  {
-    width: 90%
-}
-
-#description {
-    display: flex;
+    margin-left: 20px;
 }
 
 .unit-title {
@@ -41,7 +27,7 @@
 }
 
 .product-item {
-    width: 15%;
+    width: 20%;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -54,11 +40,13 @@
     display: table;
     text-align: center;
     margin-bottom: 10px;
+    padding: 15px;
 }
 
 .product-item-img-block img {
     width: 80%;
     display: table-cell;
     vertical-align: middle;
-    margin: 15px;  
+    /* text-align: right; */
+    margin: auto;  
 }
