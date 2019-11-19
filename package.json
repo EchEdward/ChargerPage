@@ -1,0 +1,15 @@
+{
+  "name": "charger-page-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EchEdward/ChargerPage.git"
+  },
+  "author": "EchEdward",
+  "homepage": "https://github.com/EchEdward/ChargerPage#readme",
+  "dependencies": {
+    "ejs": "^2.7.3",
+    "express": "^4.17.1"
+  }
+}

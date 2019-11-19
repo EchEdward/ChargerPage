@@ -1,2 +1,4 @@
 # These fotos don't use in project
 fotos/
+node_modules/
+package-lock.json
