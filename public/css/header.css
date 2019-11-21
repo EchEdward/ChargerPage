@@ -33,6 +33,103 @@
     color:#87b85a; /* Цвет посещённой ссылки */
 } 
 
+.eye-left {
+    position: absolute;
+    width: 7px;
+    top: 36px;
+    margin-left: 32px;
+    border-radius: 3px;
+}
+
+#eye-left-close {
+    height: 13px;
+    background-color: white;
+    -webkit-transition: height 0.15s linear 0s;
+    -moz-transition: height 0.15s linear 0s;
+    -o-transition: height 0.15s linear 0s;
+    transition: height 0.15s linear 0s;
+}
+#logo-block:hover #eye-left-close {
+    height: 0px;
+}
+
+#eye-left-open {
+    height: 0px;
+    background-color: white;
+    -webkit-transition: height 0.15s linear 0.15s;
+    -moz-transition: height 0.15s linear 0.15s;
+    -o-transition: height 0.15s linear 0.15s;
+    transition: height 0.15s linear 0.15s;
+}
+#logo-block:hover #eye-left-open {
+    height: 13px;
+}
+
+.eye-right {
+    position: absolute;
+    width: 7px;
+    top: 36px;
+    margin-left: 49px;
+    border-radius: 3px;
+}
+
+#eye-right-close {
+    height: 13px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: height 0.15s linear 0s;
+    -moz-transition: height 0.15s linear 0s;
+    -o-transition: height 0.15s linear 0s;
+    transition: height 0.15s linear 0s;
+}
+#logo-block:hover #eye-right-close {
+    height: 0px;
+}
+
+#eye-right-open {
+    height: 0px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: height 0.15s linear 0.15s;
+    -moz-transition: height 0.15s linear 0.15s;
+    -o-transition: height 0.15s linear 0.15s;
+    transition: height 0.15s linear 0.15s;
+}
+#logo-block:hover #eye-right-open {
+    height: 13px;
+}
+
+.smile {
+    position: absolute;
+    width: 29px;
+    top: 52px;
+    margin-left: 30px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+#smile-close {
+    height: 13px;
+    background-color: white;
+    -webkit-transition: height 0.15s linear 0s;
+    -moz-transition: height 0.15s linear 0s;
+    -o-transition: height 0.15s linear 0s;
+    transition: height 0.15s linear 0s;
+}
+#logo-block:hover #smile-close {
+    height: 0px;
+}
+
+#smile-open {
+    height: 0px;
+    background-color: white;
+    -webkit-transition: height 0.15s linear 0.15s;
+    -moz-transition: height 0.15s linear 0.15s;
+    -o-transition: height 0.15s linear 0.15s;
+    transition: height 0.15s linear 0.15s;
+}
+#logo-block:hover #smile-open {
+    height: 13px;
+}
+
+
 .carousel {
     
     width: 100%;
@@ -42,8 +139,6 @@
     margin-top: 100px ;
     margin-bottom: 40px;
 }
-
-
 
 .contacs-botton {
     background-color: #343434;
